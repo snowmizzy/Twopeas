@@ -32,11 +32,11 @@ body {
 }
 
 h2 {
-	font-size: 1.7em;
+	font-size: 2em;
 	margin: 0;
 	padding: .3em 0;
 	line-height: 1.2;
-	font-family: "Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-family: "elegant","Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
 }
 
 #content h2 {
@@ -44,7 +44,7 @@ h2 {
 }
 
 p {
-	font-size: 3em;
+	font-size: 2.0em;
 	line-height: 1.5;
 	margin: 0;
 	padding: .5em 0;
@@ -374,8 +374,8 @@ blockquote {
 
 .tall-header-page .wsite-header {
 	width: 888px;
-	height: 188px;
-	background: url(images/burgers.png) no-repeat;
+	height: 168px;
+	background: url(images/Barbanner.png) no-repeat;
 }
 
 /* PAGE TYPE: banner-short
@@ -418,7 +418,7 @@ blockquote {
 }
 
 #banner-b {
-	background: url(images/landing-bnr-mid-03.png) left bottom no-repeat;
+	background: url(images/landing-bnr-mid-03.png) left bottom no-repeat
 	padding-bottom: 14px;
 }
 

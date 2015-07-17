@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link href="main_style.css" rel="stylesheet" type="text/css"/>
+<link href="css/main_style.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="jquery/themes/base/jquery.ui.all.css"/>
-<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
      <script src="jquery/jquery-1.8.3.js"></script>
 	<script src="jquery/ui/jquery.ui.core.js"></script>
@@ -29,7 +29,7 @@
 		}
 	fieldset div {
 		margin-bottom: 2em;
-		margin-left:3em;
+		margin-left:5em;
 		font-size:16px;
 		font-style:oblique;
 		
@@ -62,7 +62,7 @@
 <title>Reservations</title>
 </head>
 
-<body class="wsite-theme-light tall-header-page">
+<body class="wsite-theme-light Reservation-header-page">
 
 
 <div id="header-wrap">
@@ -70,7 +70,7 @@
 		<div id="header-container">
 			<table id="header">
 				<tr>
-					<td width="47%" height="300" id="wsitelogo"><img src="images/Two-peas-logo.jpg" alt="Twopeas Logo" width="300" height="200" class="wsite-logo">
+					<td width="47%" height="300" id="wsitelogo"><img src="css/images/Two-peas-logo.jpg" alt="Twopeas Logo" width="300" height="200" class="wsite-logo">
 					<td width="53%" id="header-right">
 						<table width="68" height="20">
 						  <tr>
@@ -197,7 +197,7 @@
            </div>
             <div>  
              <label for="date" style="margin-left:7em">Date<label/>
-             <input type="text" id="datepicker" name="date" size="10" title="Please choose the date for your booking." class="required" />
+             <input type="text" id="datepicker" name="date" size="8" title="Please choose the date for your booking." class="required" />
             </div>
             </td></tr></tbody>
             </table>

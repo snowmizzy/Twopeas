@@ -28,14 +28,15 @@ font-size:1.5em;
 
 #message {
 	border:thick;
-	background-color:#7FDF55;
+	background-image:url(images/wine1.jpg);
 	border-color:#FF0000;
-	font-family: "Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
-    font-size:15px;
+	font-family: "Blessed Day","Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
+    font-size:3em;
+    padding:10px;
 	}	
 	
 #reservations{
-	background-image:url(images/formbackground.png);
+	background-image :url(images/wine.jpg);
 	
 }
 #saying{
@@ -43,7 +44,8 @@ font-size:1.5em;
 	-moz-font-size:1.5em;
 	-webkit-font-size:1.8em;
 }
-
+/*Menu Gallery
+-------------------------------------------------*/
 ul.gallery li {
 float: left;
 margin:  10px;
@@ -110,7 +112,8 @@ transform: scale(1.5) rotate(-10deg);
 -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
-
+/*Landing Page Ticker
+------------------------------------------------------*/
 ul#ticker {
 	width: 472px;
 	height: 318px;

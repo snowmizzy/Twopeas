@@ -39,7 +39,7 @@ h2 {
 	margin: 0;
 	padding: .1em 0;
 	line-height: 1.2;
-	font-family: elegant,"Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-family: "elegant","Script MT Bold", "Actor", "Myriad Pro", Arial, Helvetica, sans-serif;
 }
 
 #content h2 {
@@ -47,13 +47,15 @@ h2 {
 }
 
 p {
-	font-size: 1em;
+	font-size: 2.0em;
 	line-height: 1.5;
 	margin: 0;
 	padding: .5em 0;
+
 }
 
-#content p {
+#content p { 
+	font-family: "elegant","Actor","Script MT Bold","Tahoma";
 	color: #868686;
 }
 
@@ -341,7 +343,7 @@ font-size: 1.45em;
 
 #Africanmenu 
 {
-	width: 216px;
+	width: 237px;
 	height: 250px;
 	position: absolute;
 	left: 50px;
@@ -354,14 +356,10 @@ font-size: 1.45em;
 	top: 9px;
 }
 
-
-
-
-
 #Italianmenu 
  {
 	width: 237px;
-	height: 236px;
+	height: 250px;
 	position: absolute;
 	left: 350px;
 	margin-top: 100px;
@@ -384,7 +382,7 @@ font-size: 1.45em;
 	top: 9px;
 }
 #content {
-	min-height: 600px;
+	min-height: 920px;
 	padding: 30px 0;
 	
 }
@@ -434,7 +432,7 @@ font-size: 1.45em;
 
 .tall-header-page .wsite-header {
 	width: 888px;
-	height: 228px;
+	height: 200px;
 	background: url(images/menubanner1.png) no-repeat;
 }
 

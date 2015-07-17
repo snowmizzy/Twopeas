@@ -3,8 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link href="menu.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/main_style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="jquery/themes/base/jquery.ui.all.css"/>
 
  <script src="jquery/jquery-1.8.3.js"></script>
@@ -66,13 +66,13 @@
 <title>Reservation</title>
 </head>
 
-<body>
+<body class="wsite-theme-light Reservation-header-page">
 <div id="header-wrap">
 	<div id="page">
 		<div id="header-container">
 			<table id="header">
 				<tr>
-					<td width="47%" height="300" id="wsitelogo"><img src="images/Two-peas-logo.jpg" alt="Twopeas Logo" width="413" height="250" class="wsite-logo"></td>
+					<td width="47%" height="300" id="wsitelogo"><img src="css/images/Two-peas-logo.jpg" alt="Twopeas Logo" width="413" height="250" class="wsite-logo"></td>
 					<td width="53%" id="header-right">
 						<table width="68" height="20">
 						  <tr>
@@ -115,7 +115,7 @@
 	<div id="page">
 		<div id="main">
 			<div id="content">
-<div id=message>
+<div id="message" >
 
 <?php
 
@@ -144,21 +144,18 @@ if (!mysqli_query($con,$sql))
   die("Error: Reservation Unsuccessfull" . mysqli_error($con));
   }
   
-else{echo "Thank you"." ".$_POST['title']." ".$_POST['name']." ".$_POST['lastname']."
- <br/>";
-echo " Reservation Successful!";
-}
+else
+{
+	
+	echo " Your Reservation Was Successful"." <br/> "."Thank You"." ".$_POST['title']." ".$_POST['name']." ".$_POST['lastname']." "."<br/>"."Please Check Your Phone & E-mail for Confirmation Details";
 };
 // Closing connection//
 mysqli_close($con);
 
 ?>
 </div>
-<center><p> <img src="images/listicon.gif"/> 
-			    <img src="images/listicon.gif"/>
-			    <img src="images/listicon.gif"/>
-			    <img src="images/listicon.gif"/>
-				<img src="images/listicon.gif"/>
+<center><p>  
+			    <img src="css/images/ornament.png" width="75" height="40">
 			</p></center>
             </div>
 		</div>

@@ -44,14 +44,14 @@ h2 {
 }
 
 p {
-	font-size: 1.5em;
+	font-size: 2.0em;
 	line-height: 1.5;
 	margin: 0;
 	padding: .5em 0;
 }
 
 #content p {
-	font-family: "Actor","Script MT Bold","Tahoma";
+	font-family: "elegant","Actor","Script MT Bold","Tahoma";
 	color: #868686;
 }
 
@@ -371,11 +371,15 @@ blockquote {
 
 /* PAGE TYPE: banner-tall
 --------------------------------------------------------------------------------*/
-
+.Reservation-header-page .wsite-header {
+	width: 888px;
+	height: 188px;
+	background: url(images/reservationbanner.png) no-repeat;
+}
 .tall-header-page .wsite-header {
 	width: 888px;
 	height: 188px;
-	background: url(images/chickenrice.png) no-repeat;
+	background: url(images/hmbanner.png) no-repeat;
 }
 
 /* PAGE TYPE: banner-short
@@ -440,7 +444,7 @@ blockquote {
 .landing-page .wsite-header {
 	width: 472px;
 	height: 318px;
-	background: url(images/twopeaslanding.pg) no-repeat;
+	background: url(images/twopeaslanding.png) no-repeat;
 }
 
 .landing-banner-outer {
